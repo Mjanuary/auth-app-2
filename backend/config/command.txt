@@ -1,0 +1,5 @@
+WINDOWS: 
+C:\Program Files\PostgreSQL\12\bin> .\pg_dump.exe -U postgres -p 5432 -d imihigo_db -W -f imihigo_irenze_2_db.sql
+
+MAC: 
+sudo pg_dump -U postgres -p 5432 -d imihigo_db > imihigo_db.sql

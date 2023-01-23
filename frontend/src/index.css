@@ -1,0 +1,64 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* .top-navigation .active {
+  background-color: #c3e3ff;
+} */
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;1,200;1,400;1,700&display=swap");
+body {
+  font-family: "Nunito Sans", sans-serif;
+}
+
+.action-button .active {
+  background-color: #c3e3ff;
+}
+
+.side-navigation-container .navigation-item {
+  @apply mb-2 opacity-80 hover:opacity-100 rounded-r-full pl-4 py-2 flex items-center -ml-1 hover:border-accent-800 hover:text-accent-900 hover:bg-accent-800 hover:bg-opacity-20;
+}
+
+.side-navigation-container .active {
+  @apply bg-accent-800 bg-opacity-10 font-bold border border-accent-800 text-accent-900 opacity-100;
+}
+
+.container-section {
+  @apply dark:bg-dark-800 border dark:border-blue-300 dark:border-opacity-20 rounded dark:text-white bg-white;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+.loading-animate {
+  animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+.main-side-spacer {
+  @apply lg:w-60 w-0;
+}
+
+.z-60 {
+  z-index: 60;
+}

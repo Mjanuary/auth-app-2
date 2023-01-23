@@ -1,0 +1,19 @@
+STEP 1:
+create a file named to the action
+
+STEP 2:
+import the codes from the other codes
+
+STEP 3:
+import the file into the index.ts file
+path: 'actions/index.ts'
+
+STEP 4:
+import the interfaces into the types.ts add the intercaces to "Action" type
+path: 'actions/types.ts'
+
+STEP 5:
+create a file into the reducers/ folder and name it as the reducer name
+
+
+
